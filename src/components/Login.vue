@@ -88,13 +88,14 @@
 
 <style scoped="scoped" lang="less">
 	.login_container{
-		background: url('~assets/img/big_login.jpg');
+		background-image: url('~assets/img/big_login.jpg');
+		opacity: 0.9;
 		height: 100%;
 	}
 	.login_box{
 		width: 450px;
 		height: 300px;
-		background-color: #f4f4f4;
+		background-color: #fafafa;
 		position:absolute;
 		top:50%;
 		left: 50%;
