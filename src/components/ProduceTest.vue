@@ -55,3 +55,9 @@
     }
   }
 </script>
+
+<style lang="less" scoped="scoped">
+	.el-table{
+		height: 100vh;
+	}
+</style>

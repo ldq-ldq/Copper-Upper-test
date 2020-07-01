@@ -79,6 +79,7 @@
 
 	.el-container {
 		background-color: rgb(185, 228, 218);
+		padding-top: 30px;
 	}
 
 	.home-container {

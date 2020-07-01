@@ -16,8 +16,9 @@
 		  :router="true"> <!--是否使用 vue-router 的模式,启用该模式会在激活导航时以 index 作为 path 进行路由跳转 -->
 		  
 		  <el-menu-item index="1">产量统计</el-menu-item>
-		  <el-menu-item index="2">质量分析</el-menu-item>
-		  <el-menu-item index="3">报警管理</el-menu-item>
+		  <el-menu-item index="/productAnalyse">质量分析</el-menu-item>
+		  <el-menu-item index="/alarm">报警管理</el-menu-item>
+		  <el-menu-item index="/welcome">回到首页</el-menu-item>
 		  <el-submenu index="4">
 		    <template slot="title">账号管理</template>
 			<!-- 修改密码的弹窗 -->
@@ -70,8 +71,10 @@
 		align-items: center; //对flex的盒子上下居中
 		color: #FFF;
 		font-size: 20px;
-	    box-shadow: 0 8px 8px #CCCCCC;
+	    box-shadow: 0 2px 5px #CCCCCC;
 		border-bottom:0.5px solid #fff;
+		width:100%;position:fixed;top:0;left:0;
+		z-index: 999;
 		.logo {
 			display: flex;
 			align-items: center;
